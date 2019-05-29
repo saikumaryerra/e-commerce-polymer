@@ -6,207 +6,48 @@
     <meta charset="ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- External styling sheet -->
-    <link rel="stylesheet" type="text/css" href="css\mainstyle.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" type="text/css" href="css\styles.css">
+    <link rel="stylesheet" type="text/css" href="css\home.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- logo and name -->
     <header>
-        <div class="heading-container">
-            <div class="heading-logo-div"><img id="logo" src="images\city.png" alt="logo goes here"></div>
-            <div class="heading-h1-div">
-                <h1>The Brighton Times</h1>
-            </div>
+        <div class="logo-bar">
+            <h2> <a href="">SHOP</a></h2>
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+        <div class="nav-bar">
+            <a href="">Men's Outerwear</a>
+            <a href="">Ladies Outerwear</a>
+            <a href="">Men's T-Shirts</a>
+            <a href="">Ladies T-Shirts</a>
         </div>
     </header>
-    <!-- navigation-bar -->
-    <div class="nav-div">
-        <ul class="nav-ul">
-            <li class="nav-li"><a href="#top-news-container">NEWS</a></li>
-            <li class="nav-li"><a href="#">EVENTS</a></li>
-            <li class="nav-li"><a href="#">CULTURE</a></li>
-            <li class="nav-li"><a href="#">BLOG</a></li>
-        </ul>
+    <div class="home-product">
+        <a href=""><img src="images/mens_outerwear.jpg" alt="mens_outerwear image"></a>
+        <h3>Men's Outerwear</h3>
+        <button>SHOP NOW</button>
     </div>
-    <div class="grid-body">
-        <!-- image and article -->
-        <div class="image-article-container">
-            <!-- <div class="image-div"> -->
-            <img src="images\dog.jpg" alt="dog image">
-            <!-- </div> -->
-            <div class="article-div">
-                <h2>Absolutely astonishing breaking news!</h1>
-                    <p>
-                        Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko.
-                    </p>
-            </div>
+    <div class="home-product">
+        <a href=""><img src="images/ladies_outerwear.jpg" alt="ladies_outerwear image"></a>
+        <h3>Ladies Outerwear</h3>
+        <button>SHOP NOW</button>
+    </div>
+    <div class="home-product-tshirt">
+        <div class="home-product">
+            <a href=""><img src="images/mens_tshirts.jpg" alt="mens_tshirts image"></a>
+            <h3>Men's T-Shirts</h3>
+            <button>SHOP NOW</button>
         </div>
-        <!-- Top News -->
-        <div id="top-news-container" class="top-news-container">
-            <div class="top-news-header">
-                <h2>Top news</h2>
-                <a>+More</a>
-            </div>
-            <ul>
-                <li><i class="fas fa-angle-double-right" id="double-arrow"></i>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</li>
-                <li><i class="fas fa-angle-double-right" id="double-arrow"></i>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</li>
-                <li><i class="fas fa-angle-double-right" id="double-arrow"></i>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</li>
-                <li><i class="fas fa-angle-double-right" id="double-arrow"></i>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</li>
-            </ul>
-        </div>
-        <!-- scores in table -->
-        <div class="table-score-container">
-            <div class="table-column-1">
-                <h3 id="table-column-name">Name</h3>
-                <div class="table-column-data">
-                    <h6 id="table-data-1x1">TOny</h6>
-                    <h6 id="table-data-2x1">TOny</h6>
-                    <h6 id="table-data-3x1">TOny</h6>
-                    <h6 id="table-data-4x1">TOny</h6>
-                    <h6 id="table-data-5x1">TOny</h6>
-                </div>
-            </div>
-            <div class="table-column-2">
-                <h3 id="table-column-name">Name</h3>
-                <div class="table-column-data">
-                    <h6 id="table-data-1x2">stark</h6>
-                    <h6 id="table-data-2x2" class="bold">stark</h6>
-                    <h6 id="table-data-3x2" class="bold">stark</h6>
-                    <h6 id="table-data-4x2">stark</h6>
-                    <h6 id="table-data-5x2" class="bold">stark</h6>
-                </div>
-            </div>
-            <div class="table-column-3">
-                <h3 id="table-column-name">Power & IQ</h3>
-                <div class="score-column">
-                    <div class="table-column-data">
-                        <h6 id="table-data-1x3">99</h6>
-                        <h6 id="table-data-2x3" class="bold">987</h6>
-                        <h6 id="table-data-3x3" class="bold">98</h6>
-                        <h6 id="table-data-4x3">112</h6>
-                        <h6 id="table-data-5x3" class="bold">89</h6>
-                    </div>
-                    <div class="table-column-data">
-                        <h6 id="table-data-1x4" class="bold">99</h6>
-                        <h6 id="table-data-2x4">987</h6>
-                        <h6 id="table-data-3x4">98</h6>
-                        <h6 id="table-data-4x4"  class="bold">112</h6>
-                        <h6 id="table-data-5x4">89</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="table-column-4">
-                <h3 id="table-column-name">alias</h3>
-                <div class="table-column-data">
-                    <h6 id="table-data-1x5" class="bold">RDJ</h6>
-                    <h6 id="table-data-2x5">RDJ</h6>
-                    <h6 id="table-data-3x5">RDJ</h6>
-                    <h6 id="table-data-4x5">RDJ</h6>
-                    <h6 id="table-data-5x5" class="bold">RDJ</h6>
-                </div>
-            </div>
-        </div>
-        <!-- weather with images -->
-        <div class="weather-container">
-            <div class="weather-heading">
-                <h1>Brighton, UK</h1>
-                <h3>Sunny</h3>
-            </div>
-            <div class="weather-present-div">
-                <!-- <div class="weather-present-image"> -->
-                <img src="images/weather.png" alt="current weather image">
-                <!-- </div> -->
-                <div class="weather-present-heading">
-                    <h1>13&#8451;</h1>
-                </div>
-            </div>
-            <div class="weather-future-div">
-                <div class="weather-future-image">
-                    <h6>Mon</h6>
-                    <img src="images/sunny.png" alt="sunny weather image">
-                    <h3>13&#8451;</h3>
-                </div>
-                <div class="weather-future-image">
-                    <h6>Tues</h6>
-                    <img src="images/cloudy.png" alt="clody weather image">
-                    <h3>13&#8451;</h3>
-                </div>
-                <div class="weather-future-image">
-                    <h6>Wed</h6>
-                    <img src="images/cloudy.png" alt="clody weather image">
-                    <h3>13&#8451;</h3>
-                </div>
-                <div class="weather-future-image">
-                    <h6>Thu</h6>
-                    <img src="images/rain.png" alt="rainy weather image">
-                    <h3>13&#8451;</h3>
-                </div>
-                <div class="weather-future-image">
-                    <h6>Fri</h6>
-                    <img src="images/sunny.png" alt="sunny weather image">
-                    <h3>13&#8451;</h3>
-                </div>
-            </div>
+        <div class="home-product">
+            <a href=""><img src="images/ladies_tshirts.jpg" alt="ladies_tshirts image"></a>
+            <h3>Ladies T-Shirts
+            </h3>
+            <button>SHOP NOW</button>
         </div>
     </div>
-    <!-- Latest News -->
-    <div class="latest-news-container">
-        <div class="latest-news-header">
-            <h2>Latest news</h2>
-            <a>+More</a>
-        </div>
-        <div class="latest-news-body">
-            <div id="latest-news-body-div">
-                <img src="images\dog.jpg" alt="dog image">
-                <h3>Gastropub distillery Marfa farm-to-table</h3>
-                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.
-                </p>
-            </div>
-            <div id="latest-news-body-div">
-                <img src="images\dog.jpg" alt="dog image">
-                <h3>Gastropub distillery Marfa farm-to-table</h3>
-                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.
-                </p>
-            </div>
-            <div id="latest-news-body-div">
-                <img src="images\dog.jpg" alt="dog image">
-                <h3>Gastropub distillery Marfa farm-to-table</h3>
-                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.
-                </p>
-            </div>
-            <div id="latest-news-body-div">
-                <img src="images\dog.jpg" alt="dog image">
-                <h3>Gastropub distillery Marfa farm-to-table</h3>
-                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.
-                </p>
-            </div>
-            <div id="latest-news-body-div">
-                <img src="images\dog.jpg" alt="dog image">
-                <h3>Gastropub distillery Marfa farm-to-table</h3>
-                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.
-                </p>
-            </div>
-            <div id="latest-news-body-div">
-                <img src="images\dog.jpg" alt="dog image">
-                <h3>Gastropub distillery Marfa farm-to-table</h3>
-                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-        <ul>
-            <li>Contact us</li>
-            <li>Follow on twitter</li>
-            <li>RSS</li>
-        </ul>
-        </div>
-    </footer>
 </body>
 
 </html>

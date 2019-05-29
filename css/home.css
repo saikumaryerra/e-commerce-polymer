@@ -6,11 +6,11 @@
     overflow: hidden;
 }
 
-.home-product img {
+/*.home-product img  {
     width: 90rem;
     height: 20rem;
     object-fit: cover;
-}
+}*/
 
 .home-product>h3 {
     font-size: 1.05625em;
@@ -18,7 +18,7 @@
     margin: 2rem 0px;
 }
 
-.home-product>button {
+.home-product>a>button {
     cursor: pointer;
     font-size: 0.875rem;
     background-color: #fff;

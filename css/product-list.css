@@ -21,7 +21,7 @@
 .product-items {
     display: grid;
     width: 100%;
-    grid-template-columns:repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     margin-bottom: 2rem;
 
 }
@@ -55,13 +55,15 @@
 @media only screen and (max-width: 768px) {
 
     .product-items {
-        grid-template-columns:repeat(2,auto);
+        grid-template-columns: repeat(2, auto);
     }
+
     .product-image-main>h3 {
         margin: 0rem 0px 0.25rem 0px;
     }
-    .product-image-main>img{
+
+    .product-image-main>img {
         display: none;
     }
-    
+
 }

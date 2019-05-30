@@ -14,7 +14,7 @@ a {
     height: 3rem;
 }
 
-.logo-bar>i {
+.logo-bar>a>i {
     font-size: 1.5rem;
     position: absolute;
     top: 1.3625rem;

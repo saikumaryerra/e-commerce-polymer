@@ -23,6 +23,7 @@
     width: 100%;
     grid-template-columns: repeat(3, auto);
     margin-bottom: 2rem;
+    /*margin: 0px 1.5rem;*/
 
 }
 
@@ -31,6 +32,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .product-items a img {
@@ -44,6 +46,7 @@
 .product-items a h2 {
     font-size: 0.8125rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .product-items a p {
@@ -60,6 +63,7 @@
 
     .product-image-main>h3 {
         margin: 0rem 0px 0.25rem 0px;
+        font-size: 0.875rem;
     }
 
     .product-image-main>img {

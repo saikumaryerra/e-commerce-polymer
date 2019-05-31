@@ -30,7 +30,7 @@
     padding: 0.5rem 0rem;
     outline: none;
     /*width: 100%;*/
-    background-color: white;
+    background-color: transparent;
     border: none;
     margin: 0;
 
@@ -73,6 +73,7 @@
 }
 
 .input-container {
+    position: relative;
     height: 4.75rem;
     /*width: 100%;*/
     display: flex;
@@ -104,6 +105,23 @@
 }
 .mini-label{
     font-size: 0.8125rem;
+}
+.input-container label {
+    position: absolute;
+    color: #757575;
+    font-weight: 300;
+    user-select: none;
+    z-index: -1;
+}
+.input-container input:focus + label{
+    /*position: block;*/
+    font-size: 0.8125rem;
+    top: 0rem;
+}
+.input-container input:focus ~ div{
+    /*height: 10px;*/
+    /*background-color: black;*/
+    border-top: 2px solid #000;
 }
 @media only screen and (max-width: 768px) {
     .checkout-container {

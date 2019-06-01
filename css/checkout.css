@@ -111,14 +111,20 @@
     color: #757575;
     font-weight: 300;
     user-select: none;
+    transition: 0.3s;
     z-index: -1;
 }
-.input-container input:focus + label{
+.input-container input:focus + label, .input-container input:valid + label{
     /*position: block;*/
     font-size: 0.8125rem;
     top: 0rem;
+    
 }
-.input-container input:focus ~ div{
+/*.input-container input:valid + label{
+    font-size: 0.8125rem;
+    top: 0rem;
+}*/
+.input-container input:focus ~ div , .input-container input:valid ~ div{
     /*height: 10px;*/
     /*background-color: black;*/
     border-top: 2px solid #000;
